@@ -1,0 +1,31 @@
+{
+  "testdata":
+  [
+    {"testname":"verifyCheckoutDetails",
+      "iteration" : [
+        {
+          "city":"Paris",
+          "email":"ben@gmail.com"
+        },
+        {
+          "city":"Berlin",
+          "email":"souvik@gmail.com"
+        },
+        {
+          "city":"Dublin",
+          "email":"rida@gmail.com"
+        }
+      ]
+    },
+    {"testname":"hostelSearch",
+      "iteration" : [
+        {
+          "city":"Dublin"
+        },
+        {
+          "city":"London"
+        }
+      ]
+    }
+  ]
+}
