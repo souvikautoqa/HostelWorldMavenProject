@@ -54,6 +54,7 @@ public class HostelBookingTest extends TestBase {
 		
 		setTempData("roomPrice",hostel.getRoomPrice(0));
 		hostel.chooseRoom(0);
+               //thisis a git test
 	}
 	
 	
