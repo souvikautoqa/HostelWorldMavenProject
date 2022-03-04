@@ -34,6 +34,11 @@ public class TestBase {
 		System.out.println("Hello");
 	}
 	
+	public void ridatest() {
+		System.out.println("Hello");
+	}
+	
+	
 	//@Parameters("browser")
 	@BeforeClass(alwaysRun=true)
 	public void initDriver() {
