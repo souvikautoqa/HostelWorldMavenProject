@@ -30,6 +30,10 @@ public class TestBase {
 		Config.initProperties(System.getenv("env"));
 	}
 	
+	public void ridaSuite() {
+		System.out.println("Hello");
+	}
+	
 	//@Parameters("browser")
 	@BeforeClass(alwaysRun=true)
 	public void initDriver() {
