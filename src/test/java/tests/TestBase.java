@@ -30,10 +30,15 @@ public class TestBase {
 		System.out.println(System.getenv("env"));
 		Config.initProperties(System.getenv("env"));
 	}
-	
+
 	@BeforeGroups
 	public void dummyCode() {
 		System.out.println("dummy code");
+	}
+	
+	public void ridaSuite() {
+		System.out.println("Hello");
+
 	}
 	
 	//@Parameters("browser")
