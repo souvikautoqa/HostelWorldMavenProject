@@ -7,6 +7,7 @@ import java.util.Map;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
@@ -29,9 +30,15 @@ public class TestBase {
 		System.out.println(System.getenv("env"));
 		Config.initProperties(System.getenv("env"));
 	}
+
+	@BeforeGroups
+	public void dummyCode() {
+		System.out.println("dummy code");
+	}
 	
 	public void ridaSuite() {
 		System.out.println("Hello");
+
 	}
 	
 	//@Parameters("browser")
